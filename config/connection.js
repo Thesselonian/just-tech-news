@@ -3,8 +3,8 @@ const Sequelize = require('sequelize');
 
 require('dotenv').config();
 
-//create conneciton to our database, pass in your MySql information for username and password
-const sequelize = new Sequelize('just_tech_news_db', 'username', 'password', {
+//create connection to our database, pass in your MySql information for username and password
+const sequelize = new Sequelize('just_tech_news_db', 'root', 'password', {
     host: 'localhost',
     dialect: 'mysql',
     port: 3306
